@@ -2,15 +2,17 @@
 This project incorporates static code analysis to identify potential security vulnerabilities in the codebase. We leverage the Bandit tool, a Python static analyzer, to scan for common security issues like insecure direct object references, hardcoded credentials, and suspicious function calls.
 Running Bandit regularly helps us maintain a secure codebase by catching these issues early in the development process.
 
-Install Bandit:
+Step 1: Install Bandit
 
-Bash
+You can install Bandit using pip, which is a package manager for Python. Open your terminal and run the following command1:
+
 pip install bandit
 
-Navigate to your project directory.
 
-Run Bandit Scan:
+Step 2: Run Bandit
 
-Bash
-bandit -r .
+Now you can run Bandit on your Python files. 
 
+-r or --recursive: This tells Bandit to find and scan all Python files in the current directory and all its subdirectories2.
+-h or --help: This displays a help message with information about how to use Bandit and what the different options do.
+-o or --output: This tells Bandit to write the report to a file instead of printing it to the console2. You need to specify the filename or path where you want the report to be saved.
