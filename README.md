@@ -4,7 +4,7 @@ Running Bandit regularly helps us maintain a secure codebase by catching these i
 
 Step 1: Install Bandit
 
-You can install Bandit using pip, which is a package manager for Python. Open your terminal and run the following command1:
+You can install Bandit using pip, which is a package manager for Python. Open your terminal and run the following command:
 
 pip install bandit
 
@@ -13,6 +13,6 @@ Step 2: Run Bandit
 
 Now you can run Bandit on your Python files. 
 
--r or --recursive: This tells Bandit to find and scan all Python files in the current directory and all its subdirectories2.
+-r or --recursive: This tells Bandit to find and scan all Python files in the current directory and all its subdirectories.
 -h or --help: This displays a help message with information about how to use Bandit and what the different options do.
 -o or --output: This tells Bandit to write the report to a file instead of printing it to the console2. You need to specify the filename or path where you want the report to be saved.
