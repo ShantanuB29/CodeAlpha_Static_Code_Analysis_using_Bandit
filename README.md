@@ -13,6 +13,9 @@ Step 2: Run Bandit
 
 Now you can run Bandit on your Python files. 
 
+
+By the following command, you can run Bandit
+bandit -r [filename] -h [output file type] -o[output filename]
 -r or --recursive: This tells Bandit to find and scan all Python files in the current directory and all its subdirectories.
 -h or --help: This displays a help message with information about how to use Bandit and what the different options do.
 -o or --output: This tells Bandit to write the report to a file instead of printing it to the console2. You need to specify the filename or path where you want the report to be saved.
